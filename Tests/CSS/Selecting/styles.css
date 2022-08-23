@@ -1,0 +1,30 @@
+*{
+    background-color: lightcoral;
+    font-family: Calibri;
+
+}
+h1{
+    color: cornflowerblue;
+    background-color: bisque;
+    padding: 10px;
+}
+h2{
+    color: darkcyan;
+    background-color: darkslategray;
+    font-size: 24px;
+    margin-left: 20px;
+}
+p{
+    background-color: grey;
+    font-family: Haettenschweiler;
+}
+.paragraph{
+    font-family: "MS Reference Sans Serif";
+    font-weight: bold;
+    background-color: moccasin;
+}
+#remember{
+    font-family: Candara;
+    color: aqua;
+    background-color: chocolate;
+}
