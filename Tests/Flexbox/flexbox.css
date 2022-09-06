@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 80%;
+    height: 500px;
+    width: 50px auto;
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;/*row, row-reverse, column*/
+    flex-wrap: wrap;/*Se adapta al padre*/
+    /*justify-content: space-evenly; !*flex-start, flex-end, center, space-between, space-around, space-evenly*!*/
+    /*align-items: stretch;*/
+    /*align-content: flex-end;*/
+}
+.son{
+    background-color: darkorchid;
+    border: 2px dashed white;
+    width: 200px;
+    height: 100px;
+    color: red;
+    margin: 30px;
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 0; !*respeta el ancho mínimo indicado*!*/
+    flex: 1 1 auto; /*último valor hace referencia a flex-basis*/
+    /*order: 2;*/
+}
+/*.big{*/
+/*    font-size: 60px;*/
+/*}*/
+/*.little{*/
+/*    font-size: 10px;*/
+/*}*/
+
+.other{
+    /*order: 1;*/
+    align-self: center;
+}
